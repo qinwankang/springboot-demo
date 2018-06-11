@@ -13,7 +13,7 @@ import java.util.Date;
 public class
 Aticle implements Serializable{
     private static final long serialVersionUID = 3883524705232236671L;
-
+//20180611github测试
     @Id
     @GeneratedValue
     private BigDecimal id;
