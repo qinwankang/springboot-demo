@@ -14,5 +14,6 @@ public interface AticleDao extends JpaRepository<Aticle,BigDecimal> {
     List<Aticle> findAll();
     List<Aticle> findAll1();
     List<Aticle> findAll2();
+    List<Aticle> findAll3();
 
 }
