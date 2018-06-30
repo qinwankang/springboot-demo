@@ -7,7 +7,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Created by Administrator on 2018/4/19 0019.  这个是分支
+ * Created by Administrator on 2018/4/19 0019.  这个是分支 /我们再进行一项改变
+ * 什么叫做merge
  */
 public interface AticleDao extends JpaRepository<Aticle,BigDecimal> {
     List<Aticle> findAll();
