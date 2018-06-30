@@ -11,4 +11,5 @@ import java.util.List;
  */
 public interface AticleDao extends JpaRepository<Aticle,BigDecimal> {
     List<Aticle> findAll();
+    JSONobject<Aticle> findAll();
 }
