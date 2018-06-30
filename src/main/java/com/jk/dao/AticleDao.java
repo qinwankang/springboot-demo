@@ -13,4 +13,6 @@ import java.util.List;
 public interface AticleDao extends JpaRepository<Aticle,BigDecimal> {
     List<Aticle> findAll();
     List<Aticle> findAll1();
+    List<Aticle> findAll2();
+
 }
